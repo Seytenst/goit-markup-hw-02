@@ -4,8 +4,6 @@
 }
 .web-logo {
   color: #4d5ae5;
-  width: 44px;
-  height: 24px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -23,8 +21,6 @@
 }
 .studio-logo {
   color: #2e2f42;
-  width: 71px;
-  height: 24px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -39,9 +35,27 @@
   text-decoration: none;
   cursor: pointer;
 }
+.studio-logo-footer{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+flex: none;
+order: 1;
+flex-grow: 0;
+cursor: pointer;
+text-decoration: none;
+}
+li {
+  display: inline-block;
+}
 .studio-menu {
-  width: 48px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -56,8 +70,6 @@
   text-decoration: none;
 }
 .portfolio-menu {
-  width: 66px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -72,8 +84,6 @@
   text-decoration: none;
 }
 .contacts-menu {
-  width: 67px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -88,11 +98,6 @@
   text-decoration: none;
 }
 .gmail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -103,11 +108,6 @@
   text-decoration: none;
 }
 .tel {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -119,10 +119,6 @@
 }
 
 .title {
-  width: 492px;
-  height: 120px;
-  left: 474px;
-  top: 264px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -132,10 +128,7 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-/* title add: position: absolute; */
 .title-button {
-  width: 106px;
-  height: 19px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -151,8 +144,6 @@
   cursor: pointer;
 }
 .strategy-title {
-  width: 264px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -165,8 +156,6 @@
   flex-grow: 0;
 }
 .strategy-text {
-  width: 264px;
-  height: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -179,8 +168,6 @@
   flex-grow: 0;
 }
 .punctuality-title {
-  width: 264px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -193,8 +180,6 @@
   flex-grow: 0;
 }
 .punctuality-text {
-  width: 264px;
-  height: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -207,8 +192,6 @@
   flex-grow: 0;
 }
 .diligence-title {
-  width: 264px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -220,8 +203,6 @@
   flex-grow: 0;
 }
 .diligence-text {
-  width: 264px;
-  height: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -234,8 +215,6 @@
   flex-grow: 0;
 }
 .technologies-title {
-  width: 264px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -248,8 +227,6 @@
   flex-grow: 0;
 }
 .technologies-text {
-  width: 264px;
-  height: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -262,11 +239,6 @@
   flex-grow: 0;
 }
 .w-a-w-d {
-  position: absolute;
-  width: 322px;
-  height: 40px;
-  left: 559px;
-  top: 1019px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -325,11 +297,6 @@
   flex-grow: 0;
 }
 .our-team {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1671px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -350,8 +317,6 @@
   flex-grow: 0;
 }
 .mark-name {
-  width: 134px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -365,8 +330,6 @@
   flex-grow: 0;
 }
 .mark-work {
-  width: 128px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -389,8 +352,6 @@
   flex-grow: 0;
 }
 .tom-name {
-  width: 88px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -404,8 +365,6 @@
   flex-grow: 0;
 }
 .tom-work {
-  width: 144px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -428,8 +387,6 @@
   flex-grow: 0;
 }
 .camila-name {
-  width: 130px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -443,8 +400,6 @@
   flex-grow: 0;
 }
 .camila-work {
-  width: 75px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -467,8 +422,6 @@
   flex-grow: 0;
 }
 .daniel-name {
-  width: 127px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -482,8 +435,6 @@
   flex-grow: 0;
 }
 .daniel-work {
-  width: 85px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -497,10 +448,6 @@
   flex-grow: 0;
 }
 .footer-text {
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2421px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -510,8 +457,6 @@
   color: #e7e9fc;
 }
 .menu-button-all {
-  width: 21px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -521,15 +466,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4D5AE5;
   flex: none;
   order: 0;
   flex-grow: 0;
   cursor: pointer;
 }
 .menu-button-web-site {
-  width: 68px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -539,15 +482,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4D5AE5;
   flex: none;
   order: 0;
   flex-grow: 0;
   cursor: pointer;
 }
 .menu-button-app {
-  width: 30px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -557,15 +498,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4D5AE5;
   flex: none;
   order: 0;
   flex-grow: 0;
   cursor: pointer;
 }
 .menu-button-design {
-  width: 53px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -575,15 +514,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4D5AE5;
   flex: none;
   order: 0;
   flex-grow: 0;
   cursor: pointer;
 }
 .menu-button-marketing {
-  width: 78px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -593,7 +530,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4D5AE5;
   order: 0;
   flex-grow: 0;
   cursor: pointer;
@@ -622,19 +559,76 @@
   order: 1;
   flex-grow: 0;
 }
-.studio-menu,
-.portfolio-menu,
-.contacts-menu,
-.gmail,
-.tel,
-.title-button,
-.menu-button-all,
-.menu-button-web-site,
-.menu-button-app,
-.menu-button-marketing,
-.menu-button-design,
-.menu-button-marketing:hover,
-:focus {
-  background: var(--enother-text-color);
-  color: var(--buttons-bg-color);
+
+.studio-menu:hover {
+  color: #4D5AE5;
+}
+.portfolio-menu:hover {
+  color: #4D5AE5;
+}
+.contacts-menu:hover {
+  color: #4D5AE5;
+}
+.gmail:hover {
+  color: #4D5AE5;
+}
+.tel:hover {
+  color: #4D5AE5;
+}
+.title-button:hover {
+  color: #ffffff;
+}
+.menu-button-all:hover {
+  color: #ffffff;
+}
+.menu-button-web-site:hover {
+  color: #ffffff;
+}
+.menu-button-app:hover {
+  color: #ffffff;
+}
+.menu-button-marketing:hover {
+  color: #ffffff;
+}
+.menu-button-design:hover {
+  color: #ffffff;
+}
+.menu-button-marketing:hover {
+  color: #ffffff;
+}
+.studio-menu:focus{
+  color: #4D5AE5;
+}
+.portfolio-menu:focus{
+  color: #4D5AE5;
+}
+.contacts-menu:focus{
+  color: #4D5AE5;
+}
+.gmail:focus{
+  color: #4D5AE5;
+}
+.tel:focus{
+  color: #4D5AE5;
+}
+.title-button:focus {
+  color: #ffffff;
+}
+.menu-button-all:focus {
+  color: #ffffff;
+}
+.menu-button-web-site:focus {
+  color: #ffffff;
+}
+.menu-button-app:focus {
+  color: #ffffff;
+}
+.menu-button-marketing:focus {
+  color: #ffffff;
+}
+.menu-button-design:focus {
+  color: #ffffff;
+}
+.menu-button-marketing:focus {
+  color: #ffffff;
 }
