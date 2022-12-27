@@ -52,6 +52,23 @@ flex-grow: 0;
 cursor: pointer;
 text-decoration: none;
 }
+.web-logo-footer{
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
 li {
   display: inline-block;
 }
